@@ -11,4 +11,7 @@ import { JoinComponent } from "./join/join.component";
 })
 export class AppComponent {
   title = 'Customer-Service-Application';
+  jobName = 'Customer Service Application'
+  Email = 'csa@gmail.com';
+  phone  = '+233 54 341 9549';
 }
