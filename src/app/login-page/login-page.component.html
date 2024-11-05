@@ -1,1 +1,53 @@
-<p>login-page works!</p>
+<div class="main-container flex">
+    <div class=" hidden left-side w-2/3 lg:block">
+        <app-login-left-component></app-login-left-component>
+    </div>
+    <div class="form flex items-center justify-center md:my-16 lg:my-auto w-full flex-col">
+        <div class="content flex items-center justify-between flex-col">
+            <div class="logo flex items-center justify-center mb-6">
+                <img src="../../assets/icons/logo.png" alt="logo" width="100px" />
+                <h2 class="font-bold text-2xl md:text-4xl text-violet-900">Customer Service</h2>
+            </div>
+            <div class="welcome flex items-center justify-center flex-col mt-2">
+                <h1 class="text-2xl md:text-4xl font-bold tracking-wider">Welcome back</h1>
+                <p class="text-gray-500 md:text-2xl">Please enter your details</p>
+            </div>
+        </div>
+        <form class="md:min-w-[650px] h-[400px] md:mb-20">
+            <div class="inputField flex flex-col">
+                <label for="email" class="my-4 font-semibold md:text-2xl">Email</label>
+                <input class="outline rounded-lg outline-2 outline-gray-400 h-2 px-3 py-6 md:text-2xl" type="email"
+                    id="email" name="email" placeholder="Enter your email" required />
+            </div>
+            <div class="inputField flex flex-col">
+                <label for="password" class="my-4 font-semibold md:text-2xl">Password</label>
+                <div class="relative">
+                    <input type="password" id="password" name="password" placeholder="Enter your Password" required
+                        class="outline rounded-lg outline-2 outline-gray-400 h-12 px-3 py-6 md:text-2xl w-full" />
+                    <span class="absolute inset-y-0 right-3 flex items-center pr-3" (click)="togglePasswordVisibility()"
+                        title="Toggle password visibility">
+                        <img [src]="imgSrc" alt="eye" />
+                    </span>
+                </div>
+            </div>
+
+            <div class="rememberField flex items-center justify-between my-4 w-full">
+                <label for="rememberMe" class="text-sm md:text-2xl flex items-center  md:w-1/2 mr-4 md:mr-0">
+                    <input type="checkbox" id="rememberMe"  name="rememberMe" />
+                    <span class="custom-checkbox relative font-semibold"></span>
+                    Remember me for 20 days
+                </label>
+                <a href="#" class="text-sm md:text-2xl font-semibold text-violet-900">Forgot Password?</a>
+            </div>
+
+            <button type="submit"
+                class="btn w-full  h-16 text-2xl my-6 font-semibold text-white bg-violet-900 rounded-lg">
+                Sign In
+            </button>
+            <div class="flex items-center justify-center">
+                <p class="md:text-2xl text-gray-400 font-semibold">Don't have an account?</p>
+                <a href="#" class="md:text-2xl text-violet-900 ml-2">Sign Up</a>
+            </div>  
+        </form>
+    </div>
+</div>
