@@ -1,23 +1,32 @@
 <app-join></app-join>
-<!-- <div class="w-2/5 h-128 bg-slate-100 border-2 border-sky-700 mx-auto mt-24 rounded-xl">
+<!-- <div class="w-2/5 h-128 bg-slate-100 border-none shadow-2xl mx-auto mt-24 rounded-xl">
     <div class="text-center justify-center align-items-center">
-        <div class="flex items-center justify-center pt-10"> 
-            <img class="h-16 w-16 object-cover rounded-full mt-10" src="../assets/rocketlaunch.png" alt="Current profile photo" />
+        <div class="flex justify-between align-items-center">
+            <img src="../assets/logo-with-text.svg" alt="" class="h-24 w-64 ml-8">
+            <img src="../assets/cancel_X.svg" alt="" class="mr-8">
+        </div>
+        
+        <div class="flex items-center justify-center"> 
+            <div class="h-28 w-28 object-cover rounded-full mt-10 bg-light-purple flex flex-col place-items-center pt-5">
+                <img class="h-8 w-8" src="../assets/logo.png" alt="Current profile photo" />
+                <p class="text-deep-purple font-black text-xs">Customer Service Aplication</p>
+            </div>
+           
             <label class="font-medium ml-4 mt-8 text-2xl">{{jobName}}</label> 
         </div>
-        <div class="flex flex-col pr-10">
-            <label class="pr-6">Email:{{Email}}</label>
-            <label class="">Phone:{{phone}}</label>
+        <div class="flex flex-col pr-10 pb-10">
+            <label class="pr-6">Email: {{Email}}</label>
+            <label class="">Phone: {{phone}}</label>
         </div>
         <p class="pt-5">Please provide your details to get started.</p>
     </div>
     <form>
-        <div class="flex mb-1">
-            <div class="flex flex-col mr-4">
+        <div class="flex justify-between align-items-center mb-1">
+            <div class="flex flex-col ml-12">
                 <label for="company-name" class="mb-1">Company Name</label>
                 <input type="text" id="company-name" class="w-64 h-10 outline outline-2 outline-gray-400 rounded-lg">
             </div>
-            <div class="flex flex-col "> 
+            <div class="flex flex-col mr-12"> 
                 <label for="email" class="mb-1">Email</label>
                 <input type="text" id="email" class="w-64 h-10 outline outline-2 outline-gray-400 rounded-lg">
             </div>
