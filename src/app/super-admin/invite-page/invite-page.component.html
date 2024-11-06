@@ -1,44 +1,47 @@
 <div class="w-[480px] h-[57px] bg-white shadow-[0_0_15px_rgba(0,0,0,0.25)] border rounded-[24px] flex items-center justify-between p-4">
   <button
-  class="h-[32px] w-[32px] rounded-full bg-white border border-[#BCBCBC] disabled:opacity-50 flex items-center justify-center p-0"
-  (click)="currentPage = currentPage - 1"
-  [disabled]="currentPage === 1">
-  <img src="../../../assets/Icon.svg" alt="Previous" class="h-[12px] w-[12px]" />
-</button>
-
+    class="h-[32px] w-[32px] rounded-full bg-white border border-[#BCBCBC] disabled:opacity-50 flex items-center justify-center p-0"
+    (click)="currentPage = currentPage - 1"
+    [disabled]="currentPage === 1">
+    <img src="../../../assets/Icon.svg" alt="Previous" class="h-[12px] w-[12px]" />
+  </button>
 
   <div class="flex items-center space-x-1">
-    <ng-container *ngFor="let page of [].constructor(getTotalPages()); let i = index">
+    <ng-container *ngFor="let page of getPaginationButtons()">
       <button
         class="px-2 py-1 h-[44px] w-[45px] rounded-full text-center font-roboto text-[18px] font-bold leading-[21.09px]"
-        [ngClass]="{'bg-[#FDF8FE] text-[#4C0C5F]': currentPage === i + 1, 'bg-white text-gray-700': currentPage !== i + 1}"
-        (click)="currentPage = i + 1">
-        {{ i + 1 }}
+        [ngClass]="{'bg-[#FDF8FE] text-[#4C0C5F]': currentPage === page, 'bg-white text-gray-700': currentPage !== page}"
+        (click)="isPageNumber(page) ? currentPage = page : null">
+        {{ page }}
       </button>
     </ng-container>
   </div>
 
   <button
-  class="h-[32px] w-[32px] rounded-full bg-white border border-[#4C0C5F] disabled:opacity-50 flex items-center justify-center p-0"
-  (click)="currentPage = currentPage + 1"
-  [disabled]="currentPage >= getTotalPages()">
-  <img src="../../../assets/arrow-right.svg" alt="Next" class="h-4 w-4" />
-</button>
-
+    class="h-[32px] w-[32px] rounded-full bg-white border border-[#4C0C5F] disabled:opacity-50 flex items-center justify-center p-0"
+    (click)="currentPage = currentPage + 1"
+    [disabled]="currentPage >= getTotalPages()">
+    <img src="../../../assets/arrow-right.svg" alt="Next" class="h-4 w-4" />
+  </button>
 </div>
+
 
 
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>ID</th>
-      <th>Name</th>
+      <th>Company Name</th>
+      <th>Email</th>
+      <th>Description</th>
+      <th>Date Submitted</th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let item of inviteData | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
-      <td>{{ item.id }}</td>
-      <td>{{ item.name }}</td>
+    <tr *ngFor="let item of inviteData | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }; let i = index" [ngClass]="{'bg-red': i % 2 === 0, 'bg-white': i % 2 !== 0}">
+      <td>{{ item.companyName }}</td>
+      <td>{{ item.email }}</td>
+      <td>{{ item.description }}</td>
+      <td>{{ item.dateSubmitted }}</td>
     </tr>
   </tbody>
 </table>
