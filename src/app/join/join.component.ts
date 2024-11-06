@@ -8,12 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './join.component.css'
 })
 export class JoinComponent {
-isPopupOpen: boolean= false;
-}
 
-// isPopupOpen(){
-//   this.isPopupOpen =true;
-// }
-// isPopupClose(){
-//   this.isPopupOpen =true;
-// }
+  
+};
+
