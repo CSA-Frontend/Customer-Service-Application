@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    colors:{
+      'deep-purple':'#65107F',
+      'light-purple':'#FCF3FF'
+    },
+   
+   extend: {
+    spacing:{
+      '128': '48.875rem'
+    }
+   },
   },
   plugins: [],
 }

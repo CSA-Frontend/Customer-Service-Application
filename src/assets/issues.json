@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "topic": "General Support",
+        "category": "Cables",
+        "description": "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit more liberorea lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum  Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.",
+        "date issued": "28/09/2026",
+        "status": "Resolved"
+    },
+
+    {
+        "id": 2,
+        "topic": "Internet Support",
+        "category": "Cables",
+        "description": "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit more liberorea lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum  Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.",
+        "date issued": "28/09/2026",
+        "status": "Resolved"
+    },
+    {
+        "id": 3,
+        "topic": "User Support",
+        "category": "Cables",
+        "description": "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit more liberorea lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum  Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.",
+        "date issued": "28/09/2026",
+        "status": "Resolved"
+    },
+    {
+        "id":4,
+        "topic": "General Support",
+        "category": "Cables",
+        "description": "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit more liberorea lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum  Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.",
+        "date issued": "28/09/2026",
+        "status": "Success"
+    },
+    {
+        "id": 5,
+        "topic": "General Support",
+        "category": "Cables",
+        "description": "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit more liberorea lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum  Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.",
+        "date issued": "28/09/2026",
+        "status": "Failed"
+    },
+    {
+        "id": 6,
+        "topic": "General Support",
+        "category": "Cables",
+        "description": "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit more liberorea lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum sociis natoque penatibus et justo lorem, sed diam lorem e lorem. Lorem ipsum  Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.",
+        "date issued": "28/09/2026",
+        "status": "Pending"
+    }
+]
+

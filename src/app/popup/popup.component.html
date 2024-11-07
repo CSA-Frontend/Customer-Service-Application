@@ -1,0 +1,59 @@
+<div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50">  
+    <div class="max-w-[854px] min-h-[782px] bg-slate-100 border-none shadow-2xl mx-auto mt-16 rounded-xl" >
+        <div class="text-center justify-center align-items-center">
+            <div class="flex justify-between align-items-center">
+                <img src="../assets/logo-with-text.svg" alt="" class="h-24 w-64 ml-8">
+                <img src="../assets/cancel_X.svg" style="cursor: pointer;" alt="" class="mr-8" (click)="closePopup()">
+            </div>
+            
+            <div class="flex items-center justify-center"> 
+                <div class="h-28 w-28 object-cover rounded-full mt-10 bg-light-purple flex flex-col place-items-center pt-5">
+                    <img class="h-8 w-8" src="../assets/logo.png" alt="Current profile photo" />
+                    <p class="text-deep-purple font-black text-xs">Customer Service Aplication</p>
+                </div>
+               
+                <label class="font-medium ml-4 mt-8 text-2xl">{{jobName}}</label> 
+            </div>
+            <div class="flex flex-col pr-10 pb-10">
+                <label class="pr-6">Email: {{Email}}</label>
+                <label class="">Phone: {{phone}}</label>
+            </div>
+            <p class="pt-5">Please provide your details to get started.</p>
+        </div>
+        <form class="container mx-auto py-12 px-4">
+            <div class="grid grid-cols-2 gap-16 px-8">
+                <div class="flex flex-col ">
+                    <label for="company-name" class="mb-1">Company Name</label>
+                    <input type="text" id="company-name" class="h-10 rounded-lg outline outline-2  outline-[#D9D9DA] pl-4" placeholder="Enter your company name">
+                </div>
+                <div class="flex flex-col"> 
+                    <label for="email" class="mb-1">Email</label>
+                    <input type="text" id="email" class="h-10 rounded-lg outline outline-2  outline-[#D9D9DA] pl-4" placeholder="Enter your email">
+                </div>
+                <div class="flex flex-col ">
+                    <label for="company-name" class="mb-1">Phone</label>
+                    <input type="text" id="#" class="h-10 rounded-lg outline outline-2  outline-[#D9D9DA] pl-4" placeholder="Enter phone number">
+                </div>
+                <div class="flex flex-col"> 
+                    <label for="email" class="mb-1">Upload Business Certificate</label>
+                     <input type="text" id="#"  placeholder="Certificate must be a pdf"> 
+                        <select name="" id="" class="h-10 rounded-lg outline outline-2  outline-[#D9D9DA] pl-4" placeholder="Certificate must be a pdf">
+                        <option value=""></option>
+                        <option value="">Select file</option>
+                        <option value="">Cancel</option>
+                     </select>
+                </div>
+            </div>
+            <div class="flex flex-col px-8 mt-5">
+                <label for="#">Tell Us About Yourself</label>
+                <textarea name="#" id="#" class="min-w-full h-[146px] border-2 border-[#DFDADA] bg-[#D9D9D961]"></textarea>
+            </div>
+            <div class="flex justify-center align-items-center mt-5 gap-16">
+            <button class="w-24 h-12 rounded-md mb-10 outline outline-1 outline-deep-purple text-deep-purple">Cancel</button>
+            <button class="w-32 h-12 bg-deep-purple rounded-md mb-10 text-[#fff]">Send Request</button>
+            </div>
+            
+        </form>
+    </div>
+</div>
+
