@@ -42,10 +42,11 @@
         </div>
     
         <p class=" text-center pb-10 pt-5">Join our million customers to share your experience.</p>
-        <button class="w-32 h-12 bg-deep-purple rounded-md mb-10" style="color: #fff;">Join us now</button>
+        <button class="w-32 h-12 bg-deep-purple rounded-md mb-10" style="color: #fff;" (click)="openPopup()">Join us now</button>
     </section>
     <footer>
         <img src="../../assets/footer.png" alt="">
     </footer>
    
 </div>
+<app-popup *ngif="openPopup"></app-popup>

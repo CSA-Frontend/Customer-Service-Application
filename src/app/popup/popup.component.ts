@@ -13,10 +13,6 @@ export class PopupComponent {
   Email = 'csa@gmail.com';
   phone  = '+233 54 341 9549'; 
 
-  openPopup() {  
-    this.isPopupOpen = true;  
-  }  
-  
   closePopup() {  
     this.isPopupOpen = false;  
   }  

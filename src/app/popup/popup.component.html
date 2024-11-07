@@ -1,9 +1,9 @@
-<div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50" *ngif="openPopup">  
+<div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50">  
     <div class="max-w-[854px] min-h-[782px] bg-slate-100 border-none shadow-2xl mx-auto mt-16 rounded-xl" >
         <div class="text-center justify-center align-items-center">
             <div class="flex justify-between align-items-center">
                 <img src="../assets/logo-with-text.svg" alt="" class="h-24 w-64 ml-8">
-                <img src="../assets/cancel_X.svg" style="cursor: pointer;" alt="" class="mr-8">
+                <img src="../assets/cancel_X.svg" style="cursor: pointer;" alt="" class="mr-8" (click)="closePopup()">
             </div>
             
             <div class="flex items-center justify-center"> 
